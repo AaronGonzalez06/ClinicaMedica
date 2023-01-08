@@ -1,0 +1,39 @@
+/*@mixin bordesBasico {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    align-items: center;
+}
+
+header{
+    @include bordesBasico();
+
+    h2{
+        border: 2px solid black;
+    }
+}*/
+
+$color-fondo: #6699FF;
+$color_login: #9999CC;
+$sombreado: 2px 2px 2px;
+#login{
+    background-color: $color_login;
+    width: 450px;
+    height: 400px;
+    margin-left: 37%;
+    margin-top: 7%;
+    border: 1.2px solid black;
+    border-radius: 5px;
+    box-shadow: $sombreado;
+    display: flex;
+    justify-content: center;
+
+    form{
+    margin-top: 120px;
+    border: 1px solid black;
+    height: 124px;
+    padding: 15px;
+    box-shadow: $sombreado;
+    }
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>Maquetacion 2</title>
+    <link type="text/css" rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <h1 id="titulo">Clinica Aarón</h1>
+    <div id ="login">
+        <form method="post" action="./medico/index.html">
+            <p>Usuario: <input type="text" name="usuario" maxlength="6"></p>
+            <p>Contraseña: <input type="password" name="password" minlength="6"></p>
+            <p id="botones"><input type="submit" value="Entrar"><input type="reset" value="Limpiar"></p>
+        </form>
+    </div>
+</body>
+</html>

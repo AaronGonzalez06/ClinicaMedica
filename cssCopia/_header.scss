@@ -1,0 +1,15 @@
+@mixin bordesBasico {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    align-items: center;
+}
+
+header{
+    @include bordesBasico();
+
+    h2{
+        border: 2px solid black;
+    }
+}

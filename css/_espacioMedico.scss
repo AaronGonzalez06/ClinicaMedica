@@ -1,0 +1,47 @@
+
+$sombreado: 2px 2px 2px;
+$color-fondo: #6699FF;
+@mixin estiloBasicoNavegacion {
+    background-color: $color-fondo;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 5px;
+    width: 100px;
+    box-shadow: $sombreado;
+    text-align: center;
+    margin-right: 15px;
+}
+.datosTrabajador{
+    @include estiloBasicoNavegacion();
+}
+.navegacion{
+    @include estiloBasicoNavegacion();
+    margin-top: 60px;
+    width: 104px;
+}
+.misDatos{
+    @include estiloBasicoNavegacion();
+    width: 280px;
+    .botones{
+        margin-left: 0px;
+    }
+}
+.contrasena{
+    @include estiloBasicoNavegacion();
+    width: 280px;
+    .botones{
+        margin-left: 0px;
+    }
+}
+
+#todoDatos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+
+button{
+    margin-top: 25px;
+}

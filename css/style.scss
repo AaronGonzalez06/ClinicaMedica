@@ -1,0 +1,105 @@
+@use 'login';
+@use 'espacioMedico';
+@use 'citasHoy';
+$color-fondo: #6699FF;
+$color_uso: #9999CC;
+$sombreado: 2px 2px 2px;
+
+body{
+    background-color: $color-fondo;
+}
+
+li{
+    list-style: none;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+//sass --watch style.scss style.css
+
+h2{
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#titulo{
+    font-size: 100px;
+    text-align: center;
+}
+
+main{
+    width: 1300px;
+    margin-left: 270px;
+    margin-top: 20px;
+    height: 900px;
+    background-color: $color_uso;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: $sombreado;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;*/
+
+}
+
+#barraNav{
+    display: block;
+    float: right;
+}
+
+@mixin estiloBasicodiv {
+    background-color: #6699FF;
+    width: 125px;
+    border: 1px solid;
+    border-radius: 5px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 25px;
+    box-shadow: 2px 2px 5px;
+}
+
+
+#misPacientes , #datosLista{
+    @include estiloBasicodiv();
+}
+
+#datosLista{
+    @include estiloBasicodiv();
+    width: 260px;
+    max-height: 130px;
+}
+
+#historialPacienteMedico{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#datosCosultaPaciente{
+    @include estiloBasicodiv();
+    width: 472px;
+    height: auto;
+}
+
+a{
+    padding: 0 0.25rem;
+    margin: 0 -0.25rem;
+    box-shadow: inset 0 0 0 0 var(--link-1);
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    color: var(--link-1);
+  }
+
+a:hover {
+    color: white;
+    box-shadow: inset 100px 0 0 0 var(--link-1);
+  }

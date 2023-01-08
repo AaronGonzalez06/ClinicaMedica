@@ -1,0 +1,37 @@
+header {
+  background-color: green;
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+  align-items: center;
+}
+header h2 {
+  border: 2px solid black;
+}
+
+#caja4, #caja3 {
+  background-color: blue;
+  border-radius: 1px solid black;
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+}
+
+body {
+  background-color: yellow;
+}
+
+#caja2 {
+  background-color: red;
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#caja3 {
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

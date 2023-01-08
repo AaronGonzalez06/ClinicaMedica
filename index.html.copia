@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>Maquetacion 2</title>
+    <link type="text/css" rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+<h1>Saas</h1>
+
+<header>
+    <h2>hola</h2>
+</header>
+
+<div id = "caja2">
+
+</div>
+<div id = "caja3">
+
+</div>
+<div id = "caja4">
+
+</div>
+</body>
+</html>
